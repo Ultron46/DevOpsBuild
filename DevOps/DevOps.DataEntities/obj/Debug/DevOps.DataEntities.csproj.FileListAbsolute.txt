@@ -1,0 +1,12 @@
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.DataEntities\bin\Debug\DevOps.DataEntities.dll.config
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.DataEntities\bin\Debug\DevOps.DataEntities.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.DataEntities\bin\Debug\DevOps.DataEntities.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.DataEntities\bin\Debug\EntityFramework.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.DataEntities\bin\Debug\EntityFramework.SqlServer.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.DataEntities\bin\Debug\EntityFramework.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.DataEntities\bin\Debug\EntityFramework.SqlServer.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.DataEntities\obj\Debug\DevOps.DataEntities.csproj.CoreCompileInputs.cache
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.DataEntities\obj\Debug\DevOps.DataEntities.csproj.CopyComplete
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.DataEntities\obj\Debug\DevOps.DataEntities.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.DataEntities\obj\Debug\DevOps.DataEntities.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.DataEntities\obj\Debug\DevOps.DataEntities.csprojAssemblyReference.cache

@@ -1,0 +1,12 @@
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Common\bin\Debug\DevOps.Common.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Common\bin\Debug\DevOps.Common.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Common\obj\Debug\DevOps.Common.csproj.CoreCompileInputs.cache
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Common\obj\Debug\DevOps.Common.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Common\obj\Debug\DevOps.Common.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Common\bin\Debug\DevOps.Common.dll.config
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Common\bin\Debug\EntityFramework.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Common\bin\Debug\EntityFramework.SqlServer.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Common\bin\Debug\EntityFramework.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Common\bin\Debug\EntityFramework.SqlServer.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Common\obj\Debug\DevOps.Common.csproj.CopyComplete
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Common\obj\Debug\DevOps.Common.csprojAssemblyReference.cache
