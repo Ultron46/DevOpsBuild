@@ -56,8 +56,10 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="DataRepository\MainMenuDataRepository.cs" />
+    <Compile Include="DataRepository\SubMenuDataRepository.cs" />
     <Compile Include="DataRepository\UserDataRepository.cs" />
     <Compile Include="Interfaces\IMainMenuDataRepository.cs" />
+    <Compile Include="Interfaces\ISubMenuDataRepository.cs" />
     <Compile Include="Interfaces\IUserDataRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

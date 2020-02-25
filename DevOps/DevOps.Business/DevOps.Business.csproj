@@ -67,8 +67,10 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Handler\RegisterRepository.cs" />
     <Compile Include="Interfaces\IMainMenuManager.cs" />
+    <Compile Include="Interfaces\ISubMenuManager.cs" />
     <Compile Include="Interfaces\IUserManager.cs" />
     <Compile Include="Manager\MainMenuManager.cs" />
+    <Compile Include="Manager\SubMenuManager.cs" />
     <Compile Include="Manager\UserManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

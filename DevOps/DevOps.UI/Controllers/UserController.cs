@@ -133,6 +133,7 @@ namespace DevOps.UI.Controllers
 
                 if (Res.IsSuccessStatusCode)
                 {
+                    
                     //var MainMEnuResponse = Res.Content.ReadAsStringAsync().Result;
 
                     //users = JsonConvert.DeserializeObject<List<User>>(MainMEnuResponse);
@@ -172,8 +173,38 @@ namespace DevOps.UI.Controllers
             //bool check = true;
             if ((users.Any(x => x.Email == user.Email)) && (users.Any(x => x.Password == user.Password)))
             {
+                List<MainMenu> mainMenus = new List<MainMenu>();
+                List<SubMenu> subs = new List<SubMenu>();
 
-                return View("../Home/Index", user);
+                client.DefaultRequestHeaders.Clear();
+
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                Res = await client.GetAsync("api/MainMEnu/GetMainMEnus");
+
+                if (Res.IsSuccessStatusCode)
+                {
+                    var MainMEnuResponse = Res.Content.ReadAsStringAsync().Result;
+
+                    mainMenus = JsonConvert.DeserializeObject<List<MainMenu>>(MainMEnuResponse);
+                }
+
+                client.DefaultRequestHeaders.Clear();
+
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                Res = await client.GetAsync("api/SubMenu/GetSubMenus");
+
+                if (Res.IsSuccessStatusCode)
+                {
+                    var MainMEnuResponse = Res.Content.ReadAsStringAsync().Result;
+
+                    subs = JsonConvert.DeserializeObject<List<SubMenu>>(MainMEnuResponse);
+                }
+
+                Session["Menu"] = mainMenus;
+                Session["Subs"] = subs;
+                return View("../Home/Index");
                 //ViewBag.EmailError = "Email id is Not Valid";
                 //check = false;
             }

@@ -13,6 +13,7 @@ namespace DevOps.Handler
         {
             containerBuilder.RegisterType(typeof(UserManager)).AsImplementedInterfaces();
             containerBuilder.RegisterType(typeof(MainMenuManager)).AsImplementedInterfaces();
+            containerBuilder.RegisterType(typeof(SubMenuManager)).AsImplementedInterfaces();
         }
     }
 }

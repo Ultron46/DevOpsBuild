@@ -22,26 +22,26 @@ namespace DevOps.Controllers
 
         public async Task<ActionResult> Index()
         {
-            List<MainMenu> mainMenus = new List<MainMenu>();
-            using (var client = new HttpClient())
-            {
-                client.BaseAddress = new Uri(baseUrl);
+            //List<MainMenu> mainMenus = new List<MainMenu>();
+            //using (var client = new HttpClient())
+            //{
+            //    client.BaseAddress = new Uri(baseUrl);
 
-                client.DefaultRequestHeaders.Clear();
+            //    client.DefaultRequestHeaders.Clear();
 
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            //    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-                HttpResponseMessage Res = await client.GetAsync("api/MainMEnu/GetMainMEnus");
+            //    HttpResponseMessage Res = await client.GetAsync("api/MainMEnu/GetMainMEnus");
 
-                if (Res.IsSuccessStatusCode)
-                {
-                    var MainMEnuResponse = Res.Content.ReadAsStringAsync().Result;
+            //    if (Res.IsSuccessStatusCode)
+            //    {
+            //        var MainMEnuResponse = Res.Content.ReadAsStringAsync().Result;
 
-                    mainMenus = JsonConvert.DeserializeObject<List<MainMenu>>(MainMEnuResponse);
-                }
+            //        mainMenus = JsonConvert.DeserializeObject<List<MainMenu>>(MainMEnuResponse);
+            //    }
 
-                Session["Menu"] = mainMenus;
-            }
+            //    Session["Menu"] = mainMenus;
+            //}
 
             return View();
         }

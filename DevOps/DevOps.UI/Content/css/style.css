@@ -3576,8 +3576,9 @@ textarea.auto-size {
 }
 .login-content:before, .error-page-area:before{
     content:'';
-    height:100vh;
+    /*height:100vh;*/
     width:1px;
+    margin-top:80px;
 }
 .nk-block, .error-page-wrap{
     max-width:500px;
@@ -4626,8 +4627,16 @@ body.box-layout {
 	position: relative;
     top: 2px;
 }
+
+.uloginbtn {
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
 /*----------------------------------------*/
 /*  59. Notika custom scrollbar CSS
 /*----------------------------------------*/
-.mCS-light-1.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background-color: #00c292; }
+.mCS-light-1.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #00c292;
+}
 .mCS-light-1.mCSB_scrollTools .mCSB_draggerRail{ background-color: #ccc; }
